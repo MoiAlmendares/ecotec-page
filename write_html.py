@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# ECOTEC — Iron & Acid redesign (Brutalist Industrial)
+
+HTML = """\
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -1374,3 +1378,8 @@
   </script>
 </body>
 </html>
+"""
+
+with open("C:/Users/Usuario fixer/Downloads/ecotec-page/index.html", "w", encoding="utf-8") as f:
+    f.write(HTML)
+print("Written:", len(HTML), "bytes")
